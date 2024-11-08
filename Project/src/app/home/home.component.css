@@ -1,0 +1,42 @@
+/* home.component.css */
+.card-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  .card-text {
+    color: #555;
+  }
+  footer p {
+    margin-bottom: 0;
+  }
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+    background-color: #f8f9fa; /* Optional background color */
+    margin-top: 5%;
+  }
+  
+  /* Show dropdown menu on hover */
+  .navbar .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  /* Optional: Adjust the dropdown menu position if needed */
+  .navbar .nav-item.dropdown .dropdown-menu {
+    display: none; /* Hide dropdown by default */
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  /* Custom CSS for small image */
+  .small-img {
+    max-width: 150px;
+    margin: 0 auto;
+    display: block;
+  }
+  
